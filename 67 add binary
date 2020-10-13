@@ -1,3 +1,5 @@
 //given 2 binary string and return a string of the sum
 
 //use 2 pointer to avoid calculate the longest length and a complicated if-else
+
+//use & 0x1 to ignore higher bit
