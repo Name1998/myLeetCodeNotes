@@ -1,0 +1,8 @@
+// solution 1: when first meet, record[i]++, second meet,record[i]--,i record[i]==1, it's the single number;
+
+// solution 2: hash table;
+
+// solution 3: xor operation.
+// 异或满足交换律和结合
+//PLUS  A XOR A = 0 , A XOR 0 = A;
+// for: sum ^= a[i], return sum;
