@@ -1,0 +1,4 @@
+// question: rotate the n*n 2D matrix 90 degree clockwise
+// point: rotate can be acomplished by reflection, 
+// likewise in this problem, reflect up and down and then reflect diagonally.
+// PLUS: anti-clockwise 90 degree, reflect left and right then diagonally.
