@@ -1,10 +1,12 @@
 // SOLUTION 1： MY SOLUTION (O(1)  找规律，不解释
-int minOperations(int n) {
-    if(n%2) //n odd
-        return (1+(n-1)/2)*((n-1)/2);
-    else 
-        return n*n/4;
-    return 0;
+int minOperations(int n) {   
+    return n*n/4;
+    // if(n%2) //n odd
+    //     // actually = n^2/4 - 1/4, as n is odd, n^2/4 is integer so (int) n^2/4 - 1/4 = n^/4
+    //     return (1+(n-1)/2)*((n-1)/2);         
+    // else 
+    //     return n*n/4;
+    // return 0;
 }
 
 /*
